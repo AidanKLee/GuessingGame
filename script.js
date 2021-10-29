@@ -20,7 +20,7 @@ const compareGuesses = (human, pc, target) => {
     alert("You must enter a number between 0 and 9. Computer Wins!")
   } else {
     human = getAbsoluteDistance(human, target);
-  pc = getAbsoluteDistance(pc, target);
+    pc = getAbsoluteDistance(pc, target);
   if (human <= pc) {
     return true;
   } else {
