@@ -13,7 +13,7 @@ const getAbsoluteDistance = (player, target) => {
   } else {
     return target - player;
   }
-}
+};
 
 const compareGuesses = (human, pc, target) => {
   if (human < 0 || human > 9) {
